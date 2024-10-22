@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+.concerts {
+    background-color: $primary-color-black;
+    color: $primary-color-white;
+  }
+  .concert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }

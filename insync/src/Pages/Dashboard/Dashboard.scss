@@ -1,0 +1,44 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.dashboard{
+    background-color: $primary-color-black;
+    &__heading{
+        color: $primary-color-white;
+        padding: 1rem;
+    }
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      background-color: $secondary-color-green;
+      color: $primary-color-black;
+      border-width: 0;
+      border-radius: 5rem;
+    }
+}
+.artist-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    border-bottom: 0.4rem solid $background-color-btn;
+}
+.genre-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem;
+    max-width: 100rem;
+}
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}

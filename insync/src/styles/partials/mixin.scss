@@ -1,0 +1,42 @@
+@use "./variables.scss" as *; // Import all variables from variables.scss
+
+// Mixin for tablet media queries
+@mixin tablet {
+  @media screen and (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+// Mixin for desktop media queries
+@mixin desktop {
+  @media screen and (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+
+// Font mixin for medium-sized text
+@mixin fontMedium {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+
+  @include tablet {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+  }
+}
+
+// Font mixin for small-sized text
+@mixin fontSmall {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+
+  @include tablet {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+  }
+}

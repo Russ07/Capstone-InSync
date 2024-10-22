@@ -1,0 +1,23 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+    &__image {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+      object-fit: contain;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+    }
+    &__heading{
+        color: $primary-color-white;
+        padding-top: 1rem;
+    }
+  }

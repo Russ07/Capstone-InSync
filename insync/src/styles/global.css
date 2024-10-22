@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap';
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Titillium Web";
+}
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: 600;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+  }
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+  }
+}
+
+h4 {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+.genre-card {
+background-color: $background-color-btn;
+width: 15rem;
+height: 15rem;
+border-radius: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: $primary-color-white;
+}

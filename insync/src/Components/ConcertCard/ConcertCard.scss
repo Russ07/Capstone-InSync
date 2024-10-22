@@ -1,0 +1,39 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.concert-card {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.8rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.8rem;
+    text-align: center;
+    width: 38rem;
+    justify-content: space-between;
+    height: 41rem;
+    &__img{
+        width: 35rem;
+        height: 25rem;
+        object-fit: fill;
+    }
+    &__btn{
+        width: 18rem;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      background-color: $secondary-color-green;
+      color: $primary-color-black;
+      border-width: 0;
+      border-radius: 5rem;
+    }
+  }
+  

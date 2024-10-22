@@ -1,0 +1,24 @@
+@use "../../styles/partials/mixin.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.footer {
+  background-color: $primary-color-black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  &__heading{
+    color: $primary-color-white;
+  }
+  &__spotify{
+    color: $secondary-color-green;
+  }
+  &__ticketmaster{
+    color: $primary-color-indigo;
+  }
+  &__spacings{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+}
